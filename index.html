@@ -1,1 +1,177 @@
-<!DOCTYPE html><html><head><title>Juan Villegas</title></head><body><h1>Coming soon</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Juan Villegas — Quantitative Research, Digital Assets</title>
+<meta name="description" content="Quantitative analyst. Systematic DeFi strategies, risk frameworks, macro regime models. Selected work, anonymised.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap masthead-inner">
+    <div class="brand">
+      <span class="brand-name">Juan Villegas</span>
+      <span class="brand-role">Quantitative Research · Digital Assets</span>
+    </div>
+    <nav class="nav">
+      <a href="#strategy">Strategy</a>
+      <a href="#regime">Regime</a>
+      <a href="#research">Research</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="lens" aria-hidden="true"></div>
+  <div class="wrap">
+    <p class="eyebrow">Selected work · anonymised</p>
+    <h1>Systematic strategies and risk frameworks<br class="br-wide"> for digital asset markets.</h1>
+    <p class="hero-sub">
+      Five years designing market-neutral strategies, portfolio risk systems and
+      macro regime models across DeFi derivatives, lending and structured yield.
+      Mathematics &amp; Physics, University of Bristol. CFA candidate. Remote, CET.
+    </p>
+    <div class="hero-meta mono">
+      <span>Python · SQL · TypeScript</span>
+      <span class="dot">·</span>
+      <span>Perps · Funding · Liquidity</span>
+      <span class="dot">·</span>
+      <span>400+ protocols reviewed</span>
+    </div>
+  </div>
+</section>
+
+<section id="strategy" class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="numeral">I</span>
+      <div>
+        <h2>Delta-neutral funding capture</h2>
+        <p class="section-sub">Market-neutral carry, systematically hedged. Method shown at abstraction level.</p>
+      </div>
+    </div>
+
+    <figure class="chart">
+      <img src="assets/charts/delta_neutral.svg" alt="Equity curve of a delta-neutral strategy with drawdown panel" loading="lazy">
+      <figcaption class="mono">Fig. 1 — Cumulative return and drawdown, weekly, 3y. Illustrative reconstruction on synthetic data.</figcaption>
+    </figure>
+
+    <div class="stats mono">
+      <div class="stat"><span class="stat-label">Sharpe</span><span class="stat-value">1.24</span></div>
+      <div class="stat"><span class="stat-label">Max drawdown</span><span class="stat-value">−11.4%</span></div>
+      <div class="stat"><span class="stat-label">Cumulative</span><span class="stat-value">+30.3%</span></div>
+      <div class="stat"><span class="stat-label">Beta to BTC</span><span class="stat-value">≈ 0</span></div>
+    </div>
+
+    <div class="prose">
+      <p>
+        The strategy captures perpetual funding while holding net market exposure near zero,
+        with position sizing governed by liquidation distance, venue liquidity and funding
+        persistence rather than point-in-time yield. Risk rules dominate entry logic: exposure
+        contracts automatically as regime stress rises, and every venue carries an independent
+        exposure ceiling.
+      </p>
+      <p class="fine">
+        Implementation detail, venues, parameters and execution logic are not disclosed.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="regime" class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="numeral">II</span>
+      <div>
+        <h2>Macro regime framework</h2>
+        <p class="section-sub">Cross-market stress composite governing digital asset allocation.</p>
+      </div>
+    </div>
+
+    <figure class="chart">
+      <img src="assets/charts/regime.svg" alt="Macro stress composite z-score with resulting allocation tiers" loading="lazy">
+      <figcaption class="mono">Fig. 2 — Stress composite (z-score) and resulting allocation tier. Illustrative reconstruction on synthetic data.</figcaption>
+    </figure>
+
+    <div class="prose">
+      <p>
+        A composite of bond volatility (MOVE), credit spreads (HY/IG) and term premia,
+        normalised into a single stress score. Crossing calibrated thresholds moves the
+        digital asset sleeve between full, reduced and defensive tiers, with hysteresis to
+        avoid whipsaw at the boundary. The premise is simple: crypto drawdowns cluster in
+        global liquidity contractions, and fixed income sees them first.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="research" class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="numeral">III</span>
+      <div>
+        <h2>LLM-assisted research pipeline</h2>
+        <p class="section-sub">Structured opportunity extraction across 1,000+ protocols. Sample output, anonymised.</p>
+      </div>
+    </div>
+
+    <div class="pipeline mono">
+      <span>Sources</span><span class="arrow">→</span>
+      <span>Extraction</span><span class="arrow">→</span>
+      <span>Risk filters</span><span class="arrow">→</span>
+      <span>Scoring</span><span class="arrow">→</span>
+      <span>Review queue</span>
+    </div>
+
+    <div class="table-scroll">
+    <table class="research-table">
+      <thead>
+        <tr><th>Opportunity</th><th>Category</th><th class="num">Est. net yield</th><th>Flags raised</th><th class="num">Score</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Protocol A — stable lending loop</td><td>Lending</td><td class="num">8.2%</td><td>Oracle dependency</td><td class="num">7.4</td></tr>
+        <tr><td>Protocol B — basis, quarterly</td><td>Derivatives</td><td class="num">11.6%</td><td>Thin venue depth</td><td class="num">6.9</td></tr>
+        <tr><td>Protocol C — LP, hedged</td><td>Liquidity</td><td class="num">9.8%</td><td>Incentive decay</td><td class="num">6.1</td></tr>
+        <tr><td>Protocol D — structured yield</td><td>Structured</td><td class="num">14.3%</td><td>Unaudited module · rejected</td><td class="num">2.8</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <p class="fine">Sample of pipeline output, March 2026 snapshot. Protocol names withheld; figures rounded.</p>
+
+    <div class="prose">
+      <p>
+        Local and cloud models run structured extraction over documentation, audits and
+        on-chain data, producing typed records rather than prose. Hard risk filters reject
+        before scoring ranks; a human reviews everything above threshold. The pipeline
+        shortens the distance between a protocol existing and a decision existing.
+      </p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer id="contact" class="footer">
+  <div class="radiation" aria-hidden="true"></div>
+  <div class="wrap footer-inner">
+    <p class="footer-name">Juan Villegas</p>
+    <p class="footer-line">Quantitative research and risk, digital assets. Open to remote roles.</p>
+    <div class="footer-links mono">
+      <a href="mailto:juanvillegas.asia@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/juanvillegasaliaga" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/juanvillegasaliaga" rel="noopener">GitHub</a>
+    </div>
+    <p class="footer-fine mono">All performance figures on this page are illustrative reconstructions on synthetic data. Nothing here is investment advice.</p>
+  </div>
+</footer>
+
+</body>
+</html>
