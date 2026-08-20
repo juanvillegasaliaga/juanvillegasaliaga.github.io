@@ -113,7 +113,7 @@
   </div>
 </section>
 
-<div class="photo-band" role="img" aria-label="Sailing boat on Lake Geneva near Montreux"></div>
+<div class="photo-band" id="photoBand" role="img" aria-label="Alpine lake"></div>
 
 <section id="research" class="section">
   <div class="wrap">
@@ -171,10 +171,17 @@
       <a href="https://www.linkedin.com/in/juanvillegasaliaga" rel="noopener">LinkedIn</a>
       <a href="https://github.com/juanvillegasaliaga" rel="noopener">GitHub</a>
     </div>
-    <p class="footer-credits mono">Photography: Giacomo Legnani, Deralpinbergsteiger (Lac Léman, CC BY-SA 4.0), via Wikimedia Commons.</p>
     <p class="footer-fine mono">All performance figures on this page are illustrative reconstructions on synthetic data. Nothing here is investment advice.</p>
   </div>
 </footer>
 
+<script>
+(function(){
+  var pool=["assets/img/photo2.jpg","assets/img/photo3.jpg","assets/img/photo4.jpg"];
+  var pick=pool[Math.floor(Math.random()*pool.length)];
+  var b=document.getElementById("photoBand");
+  if(b){ b.style.backgroundImage="url('"+pick+"')"; }
+})();
+</script>
 </body>
 </html>

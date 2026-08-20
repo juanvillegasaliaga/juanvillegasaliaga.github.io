@@ -69,12 +69,12 @@ a:focus-visible{ outline:2px solid var(--azure); outline-offset:3px; }
   position:relative;
   padding:150px 0 120px;
   overflow:hidden;
-  background:url("../assets/img/photo1.jpg") center 55%/cover no-repeat, var(--ink);
+  background:url("../assets/img/photo1.jpg") center 45%/cover no-repeat, var(--ink);
   color:#F2F4F6;
 }
 .hero-veil{
   position:absolute; inset:0;
-  background:linear-gradient(100deg, rgba(10,22,36,0.82) 0%, rgba(10,22,36,0.55) 46%, rgba(10,22,36,0.18) 100%);
+  background:linear-gradient(100deg, rgba(10,22,36,0.88) 0%, rgba(10,22,36,0.55) 48%, rgba(10,22,36,0.12) 100%);
   pointer-events:none;
 }
 .hero-content{ position:relative; }
@@ -246,12 +246,8 @@ h2{
 .footer-links{ margin-top:30px; font-size:13px; letter-spacing:0.08em; }
 .footer-links a{ color:#E4E9ED; margin:0 16px; }
 .footer-links a:hover{ color:var(--gold); text-decoration:none; }
-.footer-credits{
-  margin-top:44px;
-  font-size:10.5px; color:#5F6E7C; letter-spacing:0.03em;
-}
 .footer-fine{
-  margin-top:8px;
+  margin-top:44px;
   font-size:10.5px; color:#5F6E7C; letter-spacing:0.03em;
 }
 
