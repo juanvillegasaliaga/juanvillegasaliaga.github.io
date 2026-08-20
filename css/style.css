@@ -69,7 +69,7 @@ a:focus-visible{ outline:2px solid var(--azure); outline-offset:3px; }
   position:relative;
   padding:150px 0 120px;
   overflow:hidden;
-  background:url("../assets/img/hero_leman.jpg") center 40%/cover no-repeat, var(--ink);
+  background:url("../assets/img/photo1.jpg") center 55%/cover no-repeat, var(--ink);
   color:#F2F4F6;
 }
 .hero-veil{
@@ -211,7 +211,7 @@ h2{
 .photo-band{
   height:300px;
   margin-top:84px;
-  background:url("../assets/img/divider_fog.jpg") center/cover no-repeat;
+  background:url("../assets/img/photo2.jpg") center/cover no-repeat;
 }
 @media (max-width:720px){ .photo-band{ height:180px; } }
 
